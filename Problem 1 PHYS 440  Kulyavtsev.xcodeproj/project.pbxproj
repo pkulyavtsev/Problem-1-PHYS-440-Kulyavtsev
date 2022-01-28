@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40C23BB927A4852E001418B6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C23BB827A4852E001418B6 /* Tests_iOS.swift */; };
+		40C23BC427A4852E001418B6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C23BC327A4852E001418B6 /* Tests_macOS.swift */; };
+		40C23BC627A4852E001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C23B9D27A48529001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift */; };
+		40C23BC727A4852E001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C23B9D27A48529001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift */; };
+		40C23BC827A4852E001418B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C23B9E27A48529001418B6 /* ContentView.swift */; };
+		40C23BC927A4852E001418B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C23B9E27A48529001418B6 /* ContentView.swift */; };
+		40C23BCA27A4852E001418B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C23B9F27A4852D001418B6 /* Assets.xcassets */; };
+		40C23BCB27A4852E001418B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C23B9F27A4852D001418B6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40C23BB527A4852E001418B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C23B9827A48529001418B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C23BA327A4852D001418B6;
+			remoteInfo = "Problem 1 PHYS 440  Kulyavtsev (iOS)";
+		};
+		40C23BC027A4852E001418B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C23B9827A48529001418B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C23BAB27A4852E001418B6;
+			remoteInfo = "Problem 1 PHYS 440  Kulyavtsev (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40C23B9D27A48529001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_1_PHYS_440__KulyavtsevApp.swift; sourceTree = "<group>"; };
+		40C23B9E27A48529001418B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40C23B9F27A4852D001418B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40C23BA427A4852E001418B6 /* Problem 1 PHYS 440  Kulyavtsev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Problem 1 PHYS 440  Kulyavtsev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C23BA727A4852E001418B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C23BAC27A4852E001418B6 /* Problem 1 PHYS 440  Kulyavtsev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Problem 1 PHYS 440  Kulyavtsev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C23BAE27A4852E001418B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C23BAF27A4852E001418B6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		40C23BB427A4852E001418B6 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C23BB827A4852E001418B6 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		40C23BBA27A4852E001418B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C23BBF27A4852E001418B6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C23BC327A4852E001418B6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		40C23BC527A4852E001418B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C23BA127A4852D001418B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C23BA927A4852E001418B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C23BB127A4852E001418B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C23BBC27A4852E001418B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C23B9727A48529001418B6 = {
+			isa = PBXGroup;
+			children = (
+				40C23B9C27A48529001418B6 /* Shared */,
+				40C23BA627A4852E001418B6 /* iOS */,
+				40C23BAD27A4852E001418B6 /* macOS */,
+				40C23BB727A4852E001418B6 /* Tests iOS */,
+				40C23BC227A4852E001418B6 /* Tests macOS */,
+				40C23BA527A4852E001418B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40C23B9C27A48529001418B6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				40C23B9D27A48529001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift */,
+				40C23B9E27A48529001418B6 /* ContentView.swift */,
+				40C23B9F27A4852D001418B6 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		40C23BA527A4852E001418B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40C23BA427A4852E001418B6 /* Problem 1 PHYS 440  Kulyavtsev.app */,
+				40C23BAC27A4852E001418B6 /* Problem 1 PHYS 440  Kulyavtsev.app */,
+				40C23BB427A4852E001418B6 /* Tests iOS.xctest */,
+				40C23BBF27A4852E001418B6 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40C23BA627A4852E001418B6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40C23BA727A4852E001418B6 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		40C23BAD27A4852E001418B6 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				40C23BAE27A4852E001418B6 /* Info.plist */,
+				40C23BAF27A4852E001418B6 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		40C23BB727A4852E001418B6 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40C23BB827A4852E001418B6 /* Tests_iOS.swift */,
+				40C23BBA27A4852E001418B6 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		40C23BC227A4852E001418B6 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				40C23BC327A4852E001418B6 /* Tests_macOS.swift */,
+				40C23BC527A4852E001418B6 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40C23BA327A4852D001418B6 /* Problem 1 PHYS 440  Kulyavtsev (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C23BCE27A4852E001418B6 /* Build configuration list for PBXNativeTarget "Problem 1 PHYS 440  Kulyavtsev (iOS)" */;
+			buildPhases = (
+				40C23BA027A4852D001418B6 /* Sources */,
+				40C23BA127A4852D001418B6 /* Frameworks */,
+				40C23BA227A4852D001418B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem 1 PHYS 440  Kulyavtsev (iOS)";
+			productName = "Problem 1 PHYS 440  Kulyavtsev (iOS)";
+			productReference = 40C23BA427A4852E001418B6 /* Problem 1 PHYS 440  Kulyavtsev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40C23BAB27A4852E001418B6 /* Problem 1 PHYS 440  Kulyavtsev (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C23BD127A4852E001418B6 /* Build configuration list for PBXNativeTarget "Problem 1 PHYS 440  Kulyavtsev (macOS)" */;
+			buildPhases = (
+				40C23BA827A4852E001418B6 /* Sources */,
+				40C23BA927A4852E001418B6 /* Frameworks */,
+				40C23BAA27A4852E001418B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem 1 PHYS 440  Kulyavtsev (macOS)";
+			productName = "Problem 1 PHYS 440  Kulyavtsev (macOS)";
+			productReference = 40C23BAC27A4852E001418B6 /* Problem 1 PHYS 440  Kulyavtsev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40C23BB327A4852E001418B6 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C23BD427A4852E001418B6 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				40C23BB027A4852E001418B6 /* Sources */,
+				40C23BB127A4852E001418B6 /* Frameworks */,
+				40C23BB227A4852E001418B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C23BB627A4852E001418B6 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 40C23BB427A4852E001418B6 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		40C23BBE27A4852E001418B6 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C23BD727A4852E001418B6 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				40C23BBB27A4852E001418B6 /* Sources */,
+				40C23BBC27A4852E001418B6 /* Frameworks */,
+				40C23BBD27A4852E001418B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C23BC127A4852E001418B6 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 40C23BBF27A4852E001418B6 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40C23B9827A48529001418B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					40C23BA327A4852D001418B6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					40C23BAB27A4852E001418B6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					40C23BB327A4852E001418B6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 40C23BA327A4852D001418B6;
+					};
+					40C23BBE27A4852E001418B6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 40C23BAB27A4852E001418B6;
+					};
+				};
+			};
+			buildConfigurationList = 40C23B9B27A48529001418B6 /* Build configuration list for PBXProject "Problem 1 PHYS 440  Kulyavtsev" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40C23B9727A48529001418B6;
+			productRefGroup = 40C23BA527A4852E001418B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40C23BA327A4852D001418B6 /* Problem 1 PHYS 440  Kulyavtsev (iOS) */,
+				40C23BAB27A4852E001418B6 /* Problem 1 PHYS 440  Kulyavtsev (macOS) */,
+				40C23BB327A4852E001418B6 /* Tests iOS */,
+				40C23BBE27A4852E001418B6 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40C23BA227A4852D001418B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C23BCA27A4852E001418B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C23BAA27A4852E001418B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C23BCB27A4852E001418B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C23BB227A4852E001418B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C23BBD27A4852E001418B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C23BA027A4852D001418B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C23BC827A4852E001418B6 /* ContentView.swift in Sources */,
+				40C23BC627A4852E001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C23BA827A4852E001418B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C23BC927A4852E001418B6 /* ContentView.swift in Sources */,
+				40C23BC727A4852E001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C23BB027A4852E001418B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C23BB927A4852E001418B6 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C23BBB27A4852E001418B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C23BC427A4852E001418B6 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40C23BB627A4852E001418B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C23BA327A4852D001418B6 /* Problem 1 PHYS 440  Kulyavtsev (iOS) */;
+			targetProxy = 40C23BB527A4852E001418B6 /* PBXContainerItemProxy */;
+		};
+		40C23BC127A4852E001418B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C23BAB27A4852E001418B6 /* Problem 1 PHYS 440  Kulyavtsev (macOS) */;
+			targetProxy = 40C23BC027A4852E001418B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40C23BCC27A4852E001418B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40C23BCD27A4852E001418B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		40C23BCF27A4852E001418B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phys440.Problem-1-PHYS-440--Kulyavtsev";
+				PRODUCT_NAME = "Problem 1 PHYS 440  Kulyavtsev";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40C23BD027A4852E001418B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phys440.Problem-1-PHYS-440--Kulyavtsev";
+				PRODUCT_NAME = "Problem 1 PHYS 440  Kulyavtsev";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40C23BD227A4852E001418B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "phys440.Problem-1-PHYS-440--Kulyavtsev";
+				PRODUCT_NAME = "Problem 1 PHYS 440  Kulyavtsev";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40C23BD327A4852E001418B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "phys440.Problem-1-PHYS-440--Kulyavtsev";
+				PRODUCT_NAME = "Problem 1 PHYS 440  Kulyavtsev";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		40C23BD527A4852E001418B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phys440.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Problem 1 PHYS 440  Kulyavtsev (iOS)";
+			};
+			name = Debug;
+		};
+		40C23BD627A4852E001418B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phys440.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Problem 1 PHYS 440  Kulyavtsev (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40C23BD827A4852E001418B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "phys440.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Problem 1 PHYS 440  Kulyavtsev (macOS)";
+			};
+			name = Debug;
+		};
+		40C23BD927A4852E001418B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "phys440.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Problem 1 PHYS 440  Kulyavtsev (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40C23B9B27A48529001418B6 /* Build configuration list for PBXProject "Problem 1 PHYS 440  Kulyavtsev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C23BCC27A4852E001418B6 /* Debug */,
+				40C23BCD27A4852E001418B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C23BCE27A4852E001418B6 /* Build configuration list for PBXNativeTarget "Problem 1 PHYS 440  Kulyavtsev (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C23BCF27A4852E001418B6 /* Debug */,
+				40C23BD027A4852E001418B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C23BD127A4852E001418B6 /* Build configuration list for PBXNativeTarget "Problem 1 PHYS 440  Kulyavtsev (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C23BD227A4852E001418B6 /* Debug */,
+				40C23BD327A4852E001418B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C23BD427A4852E001418B6 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C23BD527A4852E001418B6 /* Debug */,
+				40C23BD627A4852E001418B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C23BD727A4852E001418B6 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C23BD827A4852E001418B6 /* Debug */,
+				40C23BD927A4852E001418B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40C23B9827A48529001418B6 /* Project object */;
+}
