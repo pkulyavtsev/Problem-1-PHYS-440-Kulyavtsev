@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402ECB1827ADD78900F3CB75 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402ECB1727ADD78900F3CB75 /* Circle.swift */; };
+		402ECB1927ADD78900F3CB75 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402ECB1727ADD78900F3CB75 /* Circle.swift */; };
+		402ECB1B27ADD7AD00F3CB75 /* SA Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402ECB1A27ADD7AD00F3CB75 /* SA Sphere.swift */; };
+		402ECB1C27ADD7AD00F3CB75 /* SA Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402ECB1A27ADD7AD00F3CB75 /* SA Sphere.swift */; };
 		40C23BB927A4852E001418B6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C23BB827A4852E001418B6 /* Tests_iOS.swift */; };
 		40C23BC427A4852E001418B6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C23BC327A4852E001418B6 /* Tests_macOS.swift */; };
 		40C23BC627A4852E001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C23B9D27A48529001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift */; };
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		402ECB1727ADD78900F3CB75 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		402ECB1A27ADD7AD00F3CB75 /* SA Sphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SA Sphere.swift"; sourceTree = "<group>"; };
 		40C23B9D27A48529001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_1_PHYS_440__KulyavtsevApp.swift; sourceTree = "<group>"; };
 		40C23B9E27A48529001418B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40C23B9F27A4852D001418B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +106,8 @@
 			children = (
 				40C23B9D27A48529001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift */,
 				40C23B9E27A48529001418B6 /* ContentView.swift */,
+				402ECB1727ADD78900F3CB75 /* Circle.swift */,
+				402ECB1A27ADD7AD00F3CB75 /* SA Sphere.swift */,
 				40C23B9F27A4852D001418B6 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,7 +317,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				40C23BC827A4852E001418B6 /* ContentView.swift in Sources */,
+				402ECB1B27ADD7AD00F3CB75 /* SA Sphere.swift in Sources */,
 				40C23BC627A4852E001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift in Sources */,
+				402ECB1827ADD78900F3CB75 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +328,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				40C23BC927A4852E001418B6 /* ContentView.swift in Sources */,
+				402ECB1C27ADD7AD00F3CB75 /* SA Sphere.swift in Sources */,
 				40C23BC727A4852E001418B6 /* Problem_1_PHYS_440__KulyavtsevApp.swift in Sources */,
+				402ECB1927ADD78900F3CB75 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
